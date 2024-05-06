@@ -22,7 +22,7 @@ const AddNewTask = () => {
       </div>
 
       <div className={`${newBtnVis ? "hidden" : "visible"}`}>
-        <NewTaskInput setState={setNewBtnVis}></NewTaskInput>
+        <NewTaskInput setNewBtnVis={setNewBtnVis}></NewTaskInput>
       </div>
     </>
 
